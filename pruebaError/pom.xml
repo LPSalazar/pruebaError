@@ -34,6 +34,20 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
+        
+        <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+				  <!-- DO NOT include log4j.properties file in your Jar -->
+				  <archive>
+					<manifest>
+						<!-- Jar file entry point -->
+						<mainClass>com.desarrollo.pruebaError.App</mainClass>
+					</manifest>
+				  </archive>
+				</configuration>
+			</plugin>
     </plugins>
 </build>
   
