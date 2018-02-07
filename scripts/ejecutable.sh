@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ec2-user/Error/pruebaError
-sudo mvn package
+mvn package -f
