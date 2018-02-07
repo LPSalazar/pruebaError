@@ -20,6 +20,5 @@ files:
      type: 
        - directory  
 hooks:
-
    AfterInstall:
    - location: scripts/ejecutable.sh
