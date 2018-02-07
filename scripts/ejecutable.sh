@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/pruebas
+cd /home/ec2-user/pruebas/pruebaError
 mvn package
